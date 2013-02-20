@@ -48,7 +48,7 @@ $cs->registerScript('clearSelection', "
 ");
 ?>
 
-<h1><?php echo Yii::t('ui','Manage ').Yii::t('ui','User PC'); ?></h1>
+<h1>TEST<?php echo Yii::t('ui','Manage ').Yii::t('ui','User PC'); ?></h1>
 
 
 <div id="treecontrol">
