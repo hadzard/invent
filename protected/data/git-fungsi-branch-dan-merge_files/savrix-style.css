@@ -1,0 +1,101 @@
+div.market-container {
+	border:0px;
+	background-image: url(images/background-tabella.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	width: 480px;
+	height:102px;
+	margin:0 auto;
+	padding: 0;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+table.market-table {
+	border-collapse: collapse;
+	border:0px;
+	width: 480px;
+	height:102px;
+	margin:0 auto;
+	padding: 0;
+}
+
+table.market-table #icona, table.market-table #installa {
+	width: 85px;
+	height: 85px;
+	text-align: center;
+	vertical-align:middle;
+	margin: 0;
+	padding: 12px 2px 0 2px;
+}
+
+table.market-table #icona img {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	border: 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+table.market-table #testo {
+	width: 220px;
+	height: 85px;
+	margin: 0;
+	padding: 12px 2px 0 2px;
+	vertical-align: middle;
+}
+
+table.market-table #installa img.pulsante {
+	width: 85px;
+	height: 24px;
+	margin: 2px auto;
+	padding: 0;
+	border: 0;
+}
+
+table.market-table #qrcode{
+	width: 85px;
+	height: 85px;
+	margin: 0 auto;
+	padding: 12px 2px 0 2px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.market-table #qrcode img {
+	width: 75px;
+	height: 75px;
+	margin: auto;
+	border: 0;
+}
+
+span.sav-name {
+	font-size: 19px;
+	color: #a4c639;
+	text-shadow:0px -2px 0px #222222;
+	line-height: 23px;
+}
+
+span.sav-developer {
+	font-size: 13px;
+	color: #ffffff;
+	line-height: 17px;
+}
+
+span.sav-price{
+	font-size: 14px;
+	color: #ffffff;
+	line-height:18px;
+}
+
+span.sav-valutazione img {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

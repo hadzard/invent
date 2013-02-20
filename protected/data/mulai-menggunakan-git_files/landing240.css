@@ -1,0 +1,65 @@
+#wrapper{width:240px; margin:0 auto;}
+.wrap{width:240px; margin:0 auto;}
+#header{width:240px; margin:0 auto;}
+#search{display:none;}
+#cat-menu{
+	background:none !important;
+	min-height:200px;
+	height:auto !important;
+	height:200px !important;
+}
+.nav li{width:240px; float:none;}
+.nav li a{
+	font: 16px 'BebasNeueRegular',Arial,sans-serif;
+    padding: 3px 6px 1px;
+    text-decoration: none;
+	margin:1px 0px;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	background:#B72826;
+}
+.subscribe{display:none;}
+#logo{width:auto;}
+#logo img{width:200px;}
+#content{padding: 15px 10px; width: 220px;}
+.post-thumb{display:none;}
+.post-thumb img{display:none;}
+.postbox h2{font:18px/25px 'BebasNeueRegular',Arial,sans-serif;}
+.post-exerpt{margin-left:0px;}
+.postbox{padding: 20px 20px 10px 0; width: 200px;}
+.post{width:220px;}
+.pagination{display:none;}
+#sidebar{width:220px;margin-top:-30px;}
+.pop-post-img img{display:none;}
+#slider{display:none;}
+.post-header{width:220px;}
+.post-title{font:18px/25px 'BebasNeueRegular',Arial,sans-serif;}
+.entry a img{max-width:100% !important;position:relative !important;height:auto;}
+.wp-caption{width:auto !important; height:auto !important;}
+.wp-caption img{position:relative; height:95%; max-width:95%;}
+.entry img{max-width:100% !important;position:relative !important;height:auto;}
+.related{display:none !important;}
+.related h3{display:none !important;}
+#entry-author-info{margin:15px -10px;padding:18px 10px;}
+#entry-author-info #author-description{margin: 0 0 0 35px; width: 120px;font-size:12px;}
+#entry-author-info #author-avatar img{display:none;}
+#entry-author-info #author-avatar{display:none;}
+#vmagz-sr{background:none !important;}
+#vmagz-share{display:none;}
+#browsing{width:none !important;}
+#tabber .inside li{padding:7px 0;}
+#tabber ul.tabs{border-bottom:none !important;}
+#tabber ul.tabs li a{
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	padding:2px 7px;
+	font-weight:bold;
+}
+*{
+-webkit-transition: all .5s ease-in;
+-moz-transition: all .5s ease-in;
+-ms-transition: all .5s ease-in;
+transition: all .5s ease-in;
+}

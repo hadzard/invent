@@ -1,0 +1,75 @@
+#wrapper{width:320px; margin:0 auto;}
+.wrap{width:320px; margin:0 auto;}
+#header{width:320px; margin:0 auto;}
+#search{display:none;}
+#cat-menu{
+	background:none !important;
+	min-height:200px;
+	height:auto !important;
+	height:200px !important;
+}
+.nav li{width:322px; float:none;}
+.nav li a{
+	font: 16px 'BebasNeueRegular',Arial,sans-serif;
+    padding: 7px 6px 5px 15px;
+    text-decoration: none;
+	border-bottom:1px solid #ac1616;
+	background:#B72826;
+}
+.nav li ul{
+	background:none !important; margin:-26px 0 0 60px;
+}
+.nav li ul li a{
+	width:90px;
+	padding:2px 8px;
+	font-size:16px;
+	background:#333;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+}
+.nav{
+	height: 170px;
+    margin: -30px 0 45px;
+    width: 320px;
+	background:#B72826;
+	}
+.subscribe{display:none;}
+#logo{width:auto;}
+#logo img{width:300px;}
+#content{padding: 15px 10px; width: 300px;height:100%;margin-top:50px;}
+.post-thumb{display:none;}
+.post-thumb img{display:none;}
+.postbox h2{font:18px/25px 'Asul', Arial, sans-serif;}
+.postbox h2 a, .postbox h2 a:visited{font-weight:bold;}
+.post-exerpt{margin-left:0px;}
+.postbox{padding: 20px 20px 10px 0; width: 300px;}
+.post{width:300px;}
+.pagination{display:none;}
+#sidebar{width:300px;margin-top:-30px;}
+.pop-post-img img{display:none;}
+#slider{display:none;}
+.post-header{width:300px;margin-top: 20px;}
+.post-title{font:18px/25px 'Asul', Arial, sans-serif;}
+.entry a img{max-width:100% !important;position:relative !important;height:auto;}
+.wp-caption{width:auto !important; height:auto !important;}
+.wp-caption img{position:relative; height:95%; max-width:95%;}
+.entry img{max-width:100% !important;position:relative !important;height:auto;}
+.related{display:none !important;}
+.related h3{display:none !important;}
+#entry-author-info{margin:15px -10px;padding:18px 10px;}
+#entry-author-info #author-description{margin: 0 0 0 10px; width: 250px;font-size:12px;}
+#entry-author-info #author-avatar img{display:none;}
+#entry-author-info #author-avatar{display:none;}
+#vmagz-sr{background:none !important;}
+#vmagz-share{display:none;}
+#browsing{width:none !important;}
+#tabber .inside li{padding:14px 0;}
+#tabber ul.tabs{border-bottom:none !important;}
+#tabber ul.tabs li a{
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	padding:2px 7px;
+	font-weight:bold;
+}

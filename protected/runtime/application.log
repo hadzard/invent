@@ -1,0 +1,1239 @@
+2013/02/14 23:07:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:10:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:10:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:10:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:11:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:14:13 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1.
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (164)
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (320)
+in D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php (69)
+2013/02/14 23:14:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1' in D:\xampp\htdocs\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(164): CActiveRecord->find('parent_id=0')
+#4 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(320): XTreeBehavior->getRootId()
+#5 [internal function]: XTreeBehavior->fillTree(NULL, true)
+#6 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('fillTree', Array)
+#8 [internal function]: CActiveRecord->__call('fillTree', Array)
+#9 D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php(69): Mesin->fillTree(NULL, true)
+#10 D:\xampp\htdocs\framework\web\actions\CAction.php(75): XFillTreeAction->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(XFillTreeAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:14:14 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1.
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (164)
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (320)
+in D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php (69)
+2013/02/14 23:14:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1' in D:\xampp\htdocs\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(164): CActiveRecord->find('parent_id=0')
+#4 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(320): XTreeBehavior->getRootId()
+#5 [internal function]: XTreeBehavior->fillTree(NULL, true)
+#6 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('fillTree', Array)
+#8 [internal function]: CActiveRecord->__call('fillTree', Array)
+#9 D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php(69): Mesin->fillTree(NULL, true)
+#10 D:\xampp\htdocs\framework\web\actions\CAction.php(75): XFillTreeAction->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(XFillTreeAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:14:16 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1.
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (164)
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (320)
+in D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php (69)
+2013/02/14 23:14:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1' in D:\xampp\htdocs\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(164): CActiveRecord->find('parent_id=0')
+#4 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(320): XTreeBehavior->getRootId()
+#5 [internal function]: XTreeBehavior->fillTree(NULL, true)
+#6 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('fillTree', Array)
+#8 [internal function]: CActiveRecord->__call('fillTree', Array)
+#9 D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php(69): Mesin->fillTree(NULL, true)
+#10 D:\xampp\htdocs\framework\web\actions\CAction.php(75): XFillTreeAction->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(XFillTreeAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:36:22 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1.
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (164)
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (320)
+in D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php (69)
+2013/02/14 23:36:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1' in D:\xampp\htdocs\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(164): CActiveRecord->find('parent_id=0')
+#4 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(320): XTreeBehavior->getRootId()
+#5 [internal function]: XTreeBehavior->fillTree(NULL, true)
+#6 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('fillTree', Array)
+#8 [internal function]: CActiveRecord->__call('fillTree', Array)
+#9 D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php(69): Mesin->fillTree(NULL, true)
+#10 D:\xampp\htdocs\framework\web\actions\CAction.php(75): XFillTreeAction->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(XFillTreeAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:36:23 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1.
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (164)
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (320)
+in D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php (69)
+2013/02/14 23:36:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1' in D:\xampp\htdocs\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(164): CActiveRecord->find('parent_id=0')
+#4 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(320): XTreeBehavior->getRootId()
+#5 [internal function]: XTreeBehavior->fillTree(NULL, true)
+#6 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('fillTree', Array)
+#8 [internal function]: CActiveRecord->__call('fillTree', Array)
+#9 D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php(69): Mesin->fillTree(NULL, true)
+#10 D:\xampp\htdocs\framework\web\actions\CAction.php(75): XFillTreeAction->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(XFillTreeAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:36:24 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1.
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (164)
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (320)
+in D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php (69)
+2013/02/14 23:36:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1' in D:\xampp\htdocs\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(164): CActiveRecord->find('parent_id=0')
+#4 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(320): XTreeBehavior->getRootId()
+#5 [internal function]: XTreeBehavior->fillTree(NULL, true)
+#6 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('fillTree', Array)
+#8 [internal function]: CActiveRecord->__call('fillTree', Array)
+#9 D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php(69): Mesin->fillTree(NULL, true)
+#10 D:\xampp\htdocs\framework\web\actions\CAction.php(75): XFillTreeAction->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(XFillTreeAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:36:25 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1.
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (164)
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (320)
+in D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php (69)
+2013/02/14 23:36:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1' in D:\xampp\htdocs\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(164): CActiveRecord->find('parent_id=0')
+#4 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(320): XTreeBehavior->getRootId()
+#5 [internal function]: XTreeBehavior->fillTree(NULL, true)
+#6 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('fillTree', Array)
+#8 [internal function]: CActiveRecord->__call('fillTree', Array)
+#9 D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php(69): Mesin->fillTree(NULL, true)
+#10 D:\xampp\htdocs\framework\web\actions\CAction.php(75): XFillTreeAction->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(XFillTreeAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:36:27 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1.
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (164)
+in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php (320)
+in D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php (69)
+2013/02/14 23:36:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_mesin` `t` WHERE parent_id=0 LIMIT 1' in D:\xampp\htdocs\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(164): CActiveRecord->find('parent_id=0')
+#4 D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php(320): XTreeBehavior->getRootId()
+#5 [internal function]: XTreeBehavior->fillTree(NULL, true)
+#6 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('fillTree', Array)
+#8 [internal function]: CActiveRecord->__call('fillTree', Array)
+#9 D:\xampp\htdocs\invent_test\protected\extensions\actions\XFillTreeAction.php(69): Mesin->fillTree(NULL, true)
+#10 D:\xampp\htdocs\framework\web\actions\CAction.php(75): XFillTreeAction->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(XFillTreeAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin/fillTree')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=mesin
+---
+2013/02/14 23:53:47 [error] [php] include(Menu.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(55): spl_autoload_call()
+#1 D:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#2 D:\xampp\htdocs\framework\web\CBaseController.php(96): MesinController->renderInternal()
+#3 D:\xampp\htdocs\framework\web\CController.php(870): MesinController->renderFile()
+#4 D:\xampp\htdocs\framework\web\CController.php(783): MesinController->renderPartial()
+#5 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): MesinController->render()
+#6 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#7 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): MesinController->runAction()
+#9 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#11 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): MesinController->filterAccessControl()
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#13 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(266): MesinController->runActionWithFilters()
+#15 D:\xampp\htdocs\framework\web\CWebApplication.php(276): MesinController->run()
+#16 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#17 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 D:\xampp\htdocs\invent_test\index.php(13): CWebApplication->run()
+REQUEST_URI=/invent_test/index.php?r=mesin
+in D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php (55)
+in D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php (222)
+in D:\xampp\htdocs\invent_test\index.php (13)
+2013/02/15 18:11:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "request/fillTree".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('request/fillTre...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/invent_test/index.php?r=request/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:11:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "request/fillTree".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('request/fillTre...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/invent_test/index.php?r=request/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:11:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "request/fillTree".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('request/fillTre...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/invent_test/index.php?r=request/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:11:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "request/fillTree".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('request/fillTre...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/invent_test/index.php?r=request/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:12:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:12:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:20:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:20:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:20:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:22:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:22:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:22:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:22:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:24:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:25:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:25:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:27:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XFillTreeAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('fillTree')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/fillTree')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/fillTree&root=source
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:28:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=5&_=1360981688707
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:31:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=5&_=1360981865816
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:31:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=5&_=1360981902005
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:31:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=2&_=1360981907527
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:32:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=1&_=1360981932704
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:32:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=3&_=1360981935580
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:32:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=3&_=1360981937869
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:32:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=4&_=1360981940468
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:41:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=5&_=1360982487769
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:42:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=5&_=1360982559836
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:48:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=5&_=1360982912170
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/15 18:53:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(EWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(XAjaxEchoAction), Array)
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('treePath')
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/treePath')
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/treePath&id=5&_=1360983202124
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang
+---
+2013/02/17 17:29:09 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 17:30:38 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 17:30:40 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 17:30:41 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 17:30:41 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 17:30:41 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 17:30:41 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 17:30:41 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 17:30:42 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 17:30:42 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 17:30:42 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 17:30:50 [error] [exception.CException] exception 'CException' with message 'The requested tree does not exist.' in D:\xampp\htdocs\invent_test\protected\extensions\behaviors\XTreeBehavior.php:305
+Stack trace:
+#0 [internal function]: XTreeBehavior->getTreeItems()
+#1 D:\xampp\htdocs\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getTreeItems', Array)
+#3 [internal function]: CActiveRecord->__call('getTreeItems', Array)
+#4 D:\xampp\htdocs\invent_test\protected\views\mesin\admin.php(52): Cabang->getTreeItems()
+#5 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#8 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#9 D:\xampp\htdocs\invent_test\protected\controllers\MesinController.php(222): CController->render('admin', Array)
+#10 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): MesinController->actionIndex()
+#11 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#18 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#20 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('mesin')
+#21 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/invent_test/index.php?r=mesin
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/view&id=5
+---
+2013/02/17 18:14:06 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5' for key 'PRIMARY'. The SQL statement executed was: UPDATE `tbl_cabang` SET `id`=:yp0, `nama`=:yp1, `description`=:yp2, `alamat`=:yp3, `parent_id`=:yp4, `last_visit`=:yp5, `create_time`=:yp6, `create_user_id`=:yp7, `update_time`=NOW(), `update_user_id`=:yp8 WHERE `tbl_cabang`.`id`=1.
+in D:\xampp\htdocs\invent_test\protected\controllers\CabangController.php (97)
+in D:\xampp\htdocs\invent_test\index.php (13)
+2013/02/17 18:14:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5' for key 'PRIMARY'. The SQL statement executed was: UPDATE `tbl_cabang` SET `id`=:yp0, `nama`=:yp1, `description`=:yp2, `alamat`=:yp3, `parent_id`=:yp4, `last_visit`=:yp5, `create_time`=:yp6, `create_user_id`=:yp7, `update_time`=NOW(), `update_user_id`=:yp8 WHERE `tbl_cabang`.`id`=1' in D:\xampp\htdocs\framework\db\CDbCommand.php:354
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1681): CDbCommand->execute()
+#1 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1061): CActiveRecord->updateByPk('1', Array)
+#2 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(787): CActiveRecord->update(NULL)
+#3 D:\xampp\htdocs\invent_test\protected\controllers\CabangController.php(97): CActiveRecord->save()
+#4 [internal function]: CabangController->actionUpdate('1')
+#5 D:\xampp\htdocs\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(CabangController), Array)
+#6 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(CabangController), Object(ReflectionMethod), Array)
+#7 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#14 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('update')
+#16 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/update')
+#17 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/invent_test/index.php?r=cabang/update&id=1
+HTTP_REFERER=http://localhost:81/invent_test/index.php?r=cabang/update&id=1
+---
+2013/02/18 19:15:45 [error] [exception.CException] exception 'CException' with message 'Properti "Cabang.Description" tidak didefinisikan.' in D:\xampp\htdocs\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(144): CComponent->__get('Description')
+#1 D:\xampp\htdocs\invent_test\protected\views\cabang\update.php(18): CActiveRecord->__get('Description')
+#2 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#6 D:\xampp\htdocs\invent_test\protected\controllers\CabangController.php(103): CController->render('update', Array)
+#7 [internal function]: CabangController->actionUpdate('1')
+#8 D:\xampp\htdocs\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(CabangController), Array)
+#9 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(CabangController), Object(ReflectionMethod), Array)
+#10 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#17 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('update')
+#19 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('cabang/update')
+#20 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\invent_test\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/invent_test/index.php/id/cabang/update?id=1
+HTTP_REFERER=http://localhost:81/invent_test/index.php/id/cabang/view?id=1
+---
