@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" lang="id">
+<![endif]-->
+<!--[if !(IE 8) ]><!-->
+<html lang="id"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Belajar Git menggunakan Github | Arielthekillers's Blog</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://arielthekillers.wordpress.com/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="http://s2.wp.com/wp-content/themes/pub/oxygen/js/html5.js?m=1335201688g" type="text/javascript"></script>
+<![endif]-->
+
+<meta name="google-site-verification" content="P4uUogoCdIMaLwcXtDKtWWOCE46CQMe-AQg1WlDbCHM">
+<link rel="alternate" type="application/rss+xml" title="Arielthekillers's Blog » Feed" href="http://arielthekillers.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Arielthekillers's Blog » Umpan Komentar" href="http://arielthekillers.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Arielthekillers's Blog » Belajar Git menggunakan Github Umpan Komentar" href="http://arielthekillers.wordpress.com/2011/09/25/belajar-git-menggunakan-github/feed/">
+<script type="text/javascript" async="" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/quant.gif"></script><script type="text/javascript">
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
+</script>
+<link rel="stylesheet" id="all-css-0" href="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/a.css" type="text/css" media="all">
+<link rel="stylesheet" id="demosites-open-sans-css" href="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/css_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="all-css-2" href="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/style_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="screen-css-2" href="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/style_003.css" type="text/css" media="screen">
+<link rel="stylesheet" id="font-abel-css" href="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="print-css-4" href="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/global-print.css" type="text/css" media="print">
+<link rel="stylesheet" id="all-css-4" href="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/a_002.css" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var LoggedOutFollow = {"invalid_email":"Langganan Anda tidak berhasil. Silakan coba lagi dengan alamat email yang baru."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/a.js"></script>
+<link rel="stylesheet" id="all-css-0" href="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/style.css" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='http://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://arielthekillers.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://arielthekillers.wordpress.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Install modem telkomselflash merk huawei-e169 di Ubuntu" href="http://arielthekillers.wordpress.com/2011/09/25/install-modem-telkomselflash-merk-huawei-e169-di-ubuntu/">
+<link rel="next" title="membuat text di dalam gambar (typography) | CorelDraw" href="http://arielthekillers.wordpress.com/2011/09/25/membuat-text-di-dalam-gambar-typography-coreldraw/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="http://arielthekillers.wordpress.com/2011/09/25/belajar-git-menggunakan-github/">
+<link rel="shortlink" href="http://wp.me/puYf1-2x">
+<link rel="alternate" type="application/json+oembed" href="http://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=http%3A%2F%2Farielthekillers.wordpress.com%2F2011%2F09%2F25%2Fbelajar-git-menggunakan-github%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="http://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=http%3A%2F%2Farielthekillers.wordpress.com%2F2011%2F09%2F25%2Fbelajar-git-menggunakan-github%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Belajar Git menggunakan Github">
+<meta property="og:url" content="http://arielthekillers.wordpress.com/2011/09/25/belajar-git-menggunakan-github/">
+<meta property="og:description" content="Git adalah version control modern. Banyak project-project aplikasi open source yang sekarang menggunakan git. Sebelum membaca artikel berikut , pastikan kamu sudah mengenal konsep version control. ...">
+<meta property="og:site_name" content="Arielthekillers's Blog">
+<meta property="og:image" content="http://i0.wp.com/fanani.net/blog/wp-content/uploads/2011/07/Sign-Up-281x300.png?fit=400%2C400">
+<meta property="og:image" content="http://i1.wp.com/help.github.com/images/bootcamp/bootcamp_1_ssh.jpg?fit=400%2C400">
+<meta property="og:image" content="http://i2.wp.com/fanani.net/blog/wp-content/uploads/2011/07/new-repo-300x71.png?fit=400%2C400">
+<meta property="og:image" content="http://i0.wp.com/fanani.net/blog/wp-content/uploads/2011/07/new-repository-300x203.png?fit=400%2C400">
+<meta property="og:image" content="http://i0.wp.com/fanani.net/blog/wp-content/uploads/2011/07/first-repo-300x157.png?fit=400%2C400">
+<meta property="og:image" content="http://i1.wp.com/fanani.net/blog/wp-content/uploads/2011/07/branch.png?fit=400%2C400">
+<meta property="og:image" content="http://i1.wp.com/fanani.net/blog/wp-content/uploads/2011/07/gitg-300x168.png?fit=400%2C400">
+<meta name="twitter:site" content="@wordpressdotcom">
+<meta name="twitter:image" content="http://i0.wp.com/fanani.net/blog/wp-content/uploads/2011/07/Sign-Up-281x300.png">
+<meta name="twitter:card" content="summary">
+<meta property="fb:app_id" content="249643311490">
+<link rel="shortcut icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1311975824g" sizes="16x16 24x24 32x32 48x48">
+<link rel="icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1311975824g" sizes="16x16 24x24 32x32 48x48">
+<link rel="apple-touch-icon-precomposed" href="http://s0.wp.com/i/webclip.png?m=1355642671g">
+<link rel="openid.server" href="http://arielthekillers.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="http://arielthekillers.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="http://arielthekillers.wordpress.com/osd.xml" title="Arielthekillers's Blog">
+<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com">
+		<style>
+		/* <![CDATA[ */
+		/* Block: reblog */
+		
+		.reblog-from img                   { margin: 0 10px 0 0; vertical-align: middle; padding: 0; border: 0; }
+		.reblogger-note img.avatar         { float: left; padding: 0; border: 0; }
+		.reblogger-note-content            { margin: 0 0 20px; }
+		.reblog-post .wpcom-enhanced-excerpt-content { border-left: 3px solid #eee; padding-left: 15px; }
+		.reblog-post ul.thumb-list         { display: block; list-style: none; margin: 2px 0; padding: 0; clear: both; }
+		.reblog-post ul.thumb-list li      { display: inline; margin: 0; padding: 0 1px; border: 0; }
+		.reblog-post ul.thumb-list li a    { margin: 0; padding: 0; border: 0; }
+		.reblog-post ul.thumb-list li img  { margin: 0; padding: 0; border: 0; }
+		
+		.reblog-post .wpcom-enhanced-excerpt { clear: both; }
+		
+		.reblog-post .wpcom-enhanced-excerpt address,
+		.reblog-post .wpcom-enhanced-excerpt li,
+		.reblog-post .wpcom-enhanced-excerpt h1,
+		.reblog-post .wpcom-enhanced-excerpt h2,
+		.reblog-post .wpcom-enhanced-excerpt h3,
+		.reblog-post .wpcom-enhanced-excerpt h4,
+		.reblog-post .wpcom-enhanced-excerpt h5,
+		.reblog-post .wpcom-enhanced-excerpt h6,
+		.reblog-post .wpcom-enhanced-excerpt p { font-size: 100% !important; }
+		
+		.reblog-post .wpcom-enhanced-excerpt blockquote,
+		.reblog-post .wpcom-enhanced-excerpt pre,
+		.reblog-post .wpcom-enhanced-excerpt code,
+		.reblog-post .wpcom-enhanced-excerpt q { font-size: 98% !important; }
+		
+
+		/* ]]> */
+		</style>
+			<style type="text/css">
+		#page {
+			background-color: #ffffff		}
+	</style>
+	<style>
+		html {
+			font-size: 16px;
+		}
+		h1, h2, h3, h4, h5, h6, dl dt, blockquote, blockquote blockquote blockquote, .site-title, .main-navigation a, .widget_calendar caption {
+			font-family: 'Abel', sans-serif;
+		}
+		.error, .entry-title a, .entry-content a, entry-summary a, .main-navigation > div > ul > li > a, .widget a, .post-navigation a, #image-navigation a, .pingback a, .logged-in-as a, .more-articles .entry-title a:hover, .widget_flickr #flickr_badge_uber_wrapper a {
+			color: #0da4d3;
+		}
+		a:hover, .comment-meta a, .comment-meta a:visited {
+			border-color: #0da4d3;
+		}
+		a.read-more, a.read-more:visited, .pagination a:hover, .comment-navigation a:hover, button, html input[type="button"], input[type="reset"], input[type="submit"], #infinite-handle span {
+			background-color: #0da4d3;
+		}
+	</style>
+<style type="text/css">
+.widget_twitter li {
+	word-wrap: break-word;
+}
+</style>
+<meta name="application-name" content="Arielthekillers's Blog"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="arielthekillers WordPress.com weblog"><meta name="msapplication-task" content="name=Berlangganan;action-uri=http://arielthekillers.wordpress.com/feed/;icon-uri=http://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Dukungan WordPress.com;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Forum WordPress.com;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico"><meta name="title" content="Belajar Git menggunakan Github | Arielthekillers's Blog di WordPress.com">
+<meta name="description" content="arielthekillers WordPress.com weblog">
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<link rel="stylesheet" type="text/css" id="gravatar-card-css" href="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/hovercard.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/services.css"></head>
+
+<body data-twttr-rendered="true" class="single single-post postid-157 single-format-standard custom-background highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="http://arielthekillers.wordpress.com/" title="Arielthekillers's Blog" rel="home">Arielthekillers's Blog</a></h1>
+			<h2 class="site-description">arielthekillers WordPress.com weblog</h2>
+		</hgroup>
+
+		
+		
+		<nav role="navigation" class="site-navigation main-navigation clear-fix">
+			<h1 class="assistive-text">Main Menu</h1>
+			<div class="assistive-text skip-link"><a href="#content" title="Langsung ke isi">Langsung ke isi</a></div>
+
+			<div class="menu-main-category-container"><ul id="menu-main-category" class="menu"><li id="menu-item-325" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-325"><a href="http://arielthekillers.wordpress.com/category/komputer/">Komputer</a>
+<ul class="sub-menu">
+	<li id="menu-item-326" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-326"><a href="http://arielthekillers.wordpress.com/category/komputer/hardware/">Hardware</a></li>
+	<li id="menu-item-328" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-328"><a href="http://arielthekillers.wordpress.com/category/komputer/software/">Software</a></li>
+	<li id="menu-item-327" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-327"><a href="http://arielthekillers.wordpress.com/category/komputer/pc-notebook-netbook/">PC/ Notebook/ Netbook</a></li>
+</ul>
+</li>
+<li id="menu-item-329" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-329"><a href="http://arielthekillers.wordpress.com/category/mobile/">Mobile</a>
+<ul class="sub-menu">
+	<li id="menu-item-330" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-330"><a href="http://arielthekillers.wordpress.com/category/mobile/mobile-apps/">Mobile Apps</a></li>
+	<li id="menu-item-331" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-331"><a href="http://arielthekillers.wordpress.com/category/mobile/mobile-device/">Mobile Device</a></li>
+</ul>
+</li>
+<li id="menu-item-359" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-359"><a href="http://arielthekillers.wordpress.com/category/sistem-operasi/">Sistem Operasi</a>
+<ul class="sub-menu">
+	<li id="menu-item-362" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-362"><a href="http://arielthekillers.wordpress.com/category/sistem-operasi/windows/">Windows</a></li>
+	<li id="menu-item-360" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-360"><a href="http://arielthekillers.wordpress.com/category/sistem-operasi/linux/">Linux</a>
+	<ul class="sub-menu">
+		<li id="menu-item-361" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-361"><a href="http://arielthekillers.wordpress.com/category/sistem-operasi/linux/ubuntu/">Ubuntu</a></li>
+		<li id="menu-item-368" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-368"><a href="http://arielthekillers.wordpress.com/category/sistem-operasi/linux/backtrack/">Backtrack</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-339" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-339"><a href="http://arielthekillers.wordpress.com/category/networking/">networking</a>
+<ul class="sub-menu">
+	<li id="menu-item-340" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-340"><a href="http://arielthekillers.wordpress.com/category/networking/lan-wan-man/">LAN-WAN-MAN</a></li>
+	<li id="menu-item-341" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-341"><a href="http://arielthekillers.wordpress.com/category/networking/mobile-broadband/">Mobile Broadband</a></li>
+</ul>
+</li>
+<li id="menu-item-357" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-357"><a href="http://arielthekillers.wordpress.com/category/security/">Security</a>
+<ul class="sub-menu">
+	<li id="menu-item-358" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-358"><a href="http://arielthekillers.wordpress.com/category/security/malware-networking-security/">Malware</a></li>
+</ul>
+</li>
+<li id="menu-item-342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-342"><a href="http://arielthekillers.wordpress.com/category/programming-2/">Programming</a>
+<ul class="sub-menu">
+	<li id="menu-item-343" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-343"><a href="http://arielthekillers.wordpress.com/category/programming-2/desktop/">Desktop</a></li>
+	<li id="menu-item-344" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-344"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/">Web-base</a>
+	<ul class="sub-menu">
+		<li id="menu-item-345" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-345"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/css-stylesheet/">CSS Stylesheet</a>
+		<ul class="sub-menu">
+			<li id="menu-item-346" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-346"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/css-stylesheet/css/">CSS</a></li>
+			<li id="menu-item-347" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-347"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/css-stylesheet/css3/">CSS3</a></li>
+		</ul>
+</li>
+		<li id="menu-item-348" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-348"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/html/">HTML</a>
+		<ul class="sub-menu">
+			<li id="menu-item-349" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-349"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/html/html-html/">HTML</a></li>
+			<li id="menu-item-350" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-350"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/html/html5/">HTML5</a></li>
+		</ul>
+</li>
+		<li id="menu-item-352" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-352"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/server-side/">Server Side</a>
+		<ul class="sub-menu">
+			<li id="menu-item-354" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-354"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/server-side/php/">PHP</a></li>
+			<li id="menu-item-353" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-353"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/server-side/mysql/">MySql</a></li>
+		</ul>
+</li>
+		<li id="menu-item-351" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-351"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/javascript/">JavaScript</a></li>
+		<li id="menu-item-355" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-355"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/xml/">XML</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-319" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-319"><a href="http://arielthekillers.wordpress.com/category/cms-content-management-system/">CMS</a>
+<ul class="sub-menu">
+	<li id="menu-item-321" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321"><a href="http://arielthekillers.wordpress.com/category/cms-content-management-system/joomla/">Joomla</a></li>
+	<li id="menu-item-323" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-323"><a href="http://arielthekillers.wordpress.com/category/cms-content-management-system/wordpress/">WordPress</a></li>
+	<li id="menu-item-320" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-320"><a href="http://arielthekillers.wordpress.com/category/cms-content-management-system/drupal/">Drupal</a></li>
+	<li id="menu-item-322" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-322"><a href="http://arielthekillers.wordpress.com/category/cms-content-management-system/phpbb/">PHPbb</a></li>
+	<li id="menu-item-363" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-363"><a href="http://arielthekillers.wordpress.com/category/cms-content-management-system/template/">Template</a></li>
+</ul>
+</li>
+<li id="menu-item-332" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-332"><a href="http://arielthekillers.wordpress.com/category/multimedia/">MUltimedia</a>
+<ul class="sub-menu">
+	<li id="menu-item-333" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-333"><a href="http://arielthekillers.wordpress.com/category/multimedia/audio-video-editing/">Audio Video Editing</a></li>
+	<li id="menu-item-334" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-334"><a href="http://arielthekillers.wordpress.com/category/multimedia/desain-grafis/">Desain Grafis</a>
+	<ul class="sub-menu">
+		<li id="menu-item-335" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-335"><a href="http://arielthekillers.wordpress.com/category/multimedia/desain-grafis/coreldraw/">coreldraw</a></li>
+		<li id="menu-item-324" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-324"><a href="http://arielthekillers.wordpress.com/category/multimedia/desain-grafis/inkscape/">inkscape</a></li>
+		<li id="menu-item-337" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-337"><a href="http://arielthekillers.wordpress.com/category/multimedia/desain-grafis/photoshop/">photoshop</a></li>
+		<li id="menu-item-336" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-336"><a href="http://arielthekillers.wordpress.com/category/multimedia/desain-grafis/gimp/">Gimp</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-366" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-366"><a href="http://arielthekillers.wordpress.com/category/uncategorized/">Uncategorized</a></li>
+</ul></div>		</nav>
+	</header><!-- #masthead .site-header -->
+
+	<div id="main" class="clear-fix">
+		<div id="primary" class="site-content">
+			<div id="content" role="main">
+
+			
+				
+<article id="post-157" class="post-157 post type-post status-publish format-standard hentry category-software clear-fix">
+	<header class="entry-header">
+		<h1 class="entry-title">Belajar Git menggunakan Github</h1>
+
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://arielthekillers.wordpress.com/2011/09/25/belajar-git-menggunakan-github/" title="5:24 pm" rel="bookmark"><time class="entry-date" datetime="2011-09-25T17:24:07+00:00" pubdate="">September 25, 2011</time></a></span>			<span class="sep">·</span>
+			<span class="byline">by <span class="author vcard"><a class="url fn n" href="http://arielthekillers.wordpress.com/author/arielthekillers/" title="Tampilkan semua tulisan oleh arielthekillers" rel="author">arielthekillers</a></span></span>			<span class="sep">·</span>
+			in <a href="http://arielthekillers.wordpress.com/category/komputer/software/" title="Lihat seluruh tulisan dalam Software" rel="category tag">Software</a>.			<span class="sep">·</span>
+					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+	<div class="entry-content clear-fix">
+		<p>Git adalah version control modern. Banyak project-project aplikasi 
+open source yang sekarang menggunakan git. Sebelum membaca artikel 
+berikut , pastikan kamu sudah mengenal konsep <a title="Revision Control Wiki" href="http://en.wikipedia.org/wiki/Revision_control" target="_blank">version control</a>.<br>
+Untuk mempraktekkan penggunaan git , silakan daftar github . Github 
+adalah server repository git yang paling terkenal saat ini . Dengan 
+github kita bisa membuat repository public yang bisa dilihat oleh banyak
+ orang dan bersifat open source. Agar bisa membuat repository private , 
+kamu harus mengupgrade github dengan cara membayar.</p>
+<p>Berikut ini adalah step by step belajar git dengan github.</p>
+<table border="1">
+<tbody>
+<tr>
+<td><strong>Daftar Content</strong></td>
+</tr>
+<tr>
+<td>
+<ul>
+<li><a title="Pendahuluan" href="http://fanani.net/belajar-git-dengan-github/#pendahuluan">Pendahuluan</a></li>
+<li><a title="Installasi Git" href="http://fanani.net/belajar-git-dengan-github/#installasi-git">Installasi Git</a>
+<ul>
+<li><a title="Menggunakan apt-get" href="http://fanani.net/belajar-git-dengan-github/#1A">Menggunakan apt-get</a></li>
+<li><a title="Konfigursi git global sistem" href="http://fanani.net/belajar-git-dengan-github/#1B">Konfigursi git global sistem</a></li>
+</ul>
+</li>
+<li><a title="Daftar Github" href="http://fanani.net/belajar-git-dengan-github/#daftar-github">Daftar Github</a></li>
+<li><a title="Membuat ssh-keygen" href="http://fanani.net/belajar-git-dengan-github/#ssh-keygen">Membuat ssh-keygen</a></li>
+<li><a title="Membuat Repository" href="http://fanani.net/belajar-git-dengan-github/#membuat-repository">Membuat Repository</a>
+<ul>
+<li><a title="Membuat Remote Repository di Github" href="http://fanani.net/belajar-git-dengan-github/#4A">Membuat Remote Repository di Github</a></li>
+<li><a title="Membuat Local Repository di Local" href="http://fanani.net/belajar-git-dengan-github/#4B">Membuat Local Repository di Local</a></li>
+</ul>
+</li>
+<li><a title="Memanage Repository" href="http://fanani.net/belajar-git-dengan-github/#memanage-repository">Memanage Repository</a>
+<ul>
+<li><a title="clone repository" href="http://fanani.net/belajar-git-dengan-github/#5A">clone repository</a></li>
+<li><a title="Menambah file dan direktory dan Mengedit File README" href="http://fanani.net/belajar-git-dengan-github/#5B">Menambah file dan direktory dan Mengedit File README</a></li>
+<li><a title="Melihat Status Perubahan" href="http://fanani.net/belajar-git-dengan-github/#5C">Melihat Status Perubahan</a></li>
+<li><a title="Mengcommit perubahan ke repository local" href="http://fanani.net/belajar-git-dengan-github/#5D">Mengcommit perubahan ke repository local</a></li>
+<li><a title="Mengupload perubahan ke remote repository" href="http://fanani.net/belajar-git-dengan-github/#5E">Mengupload perubahan ke remote repository</a></li>
+</ul>
+</li>
+<li><a title="Advance Tips and Trick" href="http://fanani.net/belajar-git-dengan-github/#tips-and-tricks">Advance Tips And Tricks</a>
+<ul>
+<li><a title=" Menggunakan git pull" href="http://fanani.net/belajar-git-dengan-github/#6A"> Menggunakan git pull</a></li>
+<li><a title="Menambah branch" href="http://fanani.net/belajar-git-dengan-github/#6B">Menambah branch</a></li>
+<li><a title="Merge antar branch" href="http://fanani.net/belajar-git-dengan-github/#6C">Merge antar branch</a></li>
+<li><a title="Melihat log dengan gitg" href="http://fanani.net/belajar-git-dengan-github/#6D">Melihat log dengan gitg</a></li>
+<li><a title="Membuat file .gitignore" href="http://fanani.net/belajar-git-dengan-github/#6E">Membuat file .gitignore</a></li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Baiklah , lansung saja kita praktekkan penggunaan git dengan github.</p>
+<p>&nbsp;</p>
+<h3><a name="installasi-git"></a>1. Installasi GIT</h3>
+<hr>
+<h4><a name="1A"></a>a. Menggunakan apt-get</h4>
+<pre>fanani@fanani-laptop:~$ sudo apt-get install git-core git-gui git-doc gitg</pre>
+<h4><a name="1B"></a>b. Konfigursi git global sistem</h4>
+<pre>fanani@fanani-laptop:~$ git config --global user.name "Full Name"
+fanani@fanani-laptop:~$ git config --global user.email "your_email@youremail.com"
+fanani@fanani-laptop:~$ git config --global color.ui true</pre>
+<p>NOTE * : Git bisa di install di windows , dan mac .</p>
+<h3><a name="daftar-github"></a>2. Daftar github</h3>
+<hr>
+<p>Untuk daftar github saya kira sangat mudah seperti kita mendaftar 
+account di internet . Diamana kita harus mengisi formulir , seperti :</p>
+<p>username, email address , dan password</p>
+<p><a href="http://fanani.net/blog/wp-content/uploads/2011/07/Sign-Up.png"><img title="Sign Up" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/Sign-Up-281x300.htm" alt="" height="300" width="281"></a></p>
+<h3><a name="ssh-keygen"></a>3. Membuat ssh-keygen.</h3>
+<hr>
+<p>SSH Keygen ini sangat diperlukan untuk mengakses repository karena 
+digunakan untuk keamanan dalam mengakses repository git. Tanpa membuat 
+ssh-keygen kamu tidak bisa menggunakan git pada github.<br>
+Cara untuk membuat ssh-keygen</p>
+<pre>fanani@fanani-laptop:~$ ssh-keygen -t rsa -C "your_email@youremail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/fanani/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase): <strong>kosongingaja</strong>
+Enter same passphrase again: <strong>kosonginaja</strong>
+Your identification has been saved in /home/fanani/.ssh/id_rsa.
+Your public key has been saved in /home/fanani/.ssh/id_rsa.pub.
+The key fingerprint is:
+14:cb:40:c5:6e:84:fc:fc:47:11:8b:76:b7:b2:79:1d your_email@youremail.com
+The key's randomart image is:
++--[ RSA 2048]----+
+|     oo+o   ..   |
+|      oooo ...   |
+|       =+ o o..  |
+|       .=. ... . |
+|       .S. .. .E |
+|          . .+ ..|
+|           .o . .|
+|             .   |
+|                 |
++-----------------+
+fanani@fanani-laptop:~$</pre>
+<p>Setelah itu cek di direktori .ssh</p>
+<pre>fanani@fanani-laptop:~$ ls -l .ssh/
+total 8
+-rw------- 1 fanani fanani 1675 2011-07-25 12:33 id_rsa
+-rw-r--r-- 1 fanani fanani  406 2011-07-25 12:33 id_rsa.pub
+fanani@fanani-laptop</pre>
+<p>terlihat ada file baru id_rsa dan id_rsa.pub.<br>
+<strong>id_rsa</strong> , adalah private key dan <strong>id_rsa.pub</strong>
+ adalah public key. Keduanya adalah satu pasang. id_rsa.pub adalah file 
+yang akan kita copy paste pada github, sedangkan id_rsa tetap di laptop.
+ Jangan sekali-kali memberikan id_rsa kepada orang lain , karena 
+tindakan tersebut bisa berbahaya. <img src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/icon_biggrin.htm" alt=":D"><br>
+Setelah public key terbuat , sekarang copi file tersebut ke github.<br>
+Caranya : Klik Account Setting &gt; SSH Public Keys &gt;</p>
+<p>Pastekan isi&nbsp;id_rsa kedalam Key. Dan isi title sesuai dengan kemauan kamu .</p>
+<div>
+<dl>
+<dt><a href="http://help.github.com/images/bootcamp/bootcamp_1_ssh.jpg"><img title="ssh keygen" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/bootcamp_1_ssh.jpg" alt="ssh-keygen" height="402" width="558"></a></dt>
+<dd>source :&nbsp;http://help.github.com/images/bootcamp/bootcamp_1_ssh.jpg</dd>
+</dl>
+</div>
+<p>Selanjutnya klik add key.</p>
+<h3><a name="membuat-repository"></a>4. Membuat Repository</h3>
+<hr>
+<h4><a name="4A"></a>a. Membuat Remote Repository di Github</h4>
+<p>Untuk membuat repository pertama kali , login ke github &nbsp;, klik New Repository</p>
+<p><a href="http://fanani.net/blog/wp-content/uploads/2011/07/new-repo.png"><img title="new-repo" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/new-repo-300x71.htm" alt="" height="71" width="300"></a></p>
+<p>Pada form “Create a New Repository” terdapat ,<br>
+<strong>Project Name </strong>: Isi dengan nama project<br>
+<strong>Description (optional) </strong>: Isi dengan deksripsi project yang sedang Kamu kerjakan<br>
+<strong>Homepage URL (optional)</strong> : Url project atau url blog Kamu</p>
+<p><a href="http://fanani.net/blog/wp-content/uploads/2011/07/new-repository.png"><img title="new-repository" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/new-repository-300x203.htm" alt="" height="203" width="300"></a></p>
+<p>Kemudian klik Create Repository.</p>
+<p>Kita sudah punya repository di git. Lalu bagaimana cara agar 
+repository digithub bisa kita utak – atik via laptop atau PC dirumah ? 
+Ikuti langkah selanjutnya .</p>
+<h4><a name="4B"></a>b. Membuat Local Repository di Local</h4>
+<p>Setelah membuat repository di github , selanjutnya adalah membuat repository di local (laptop atau pc).<br>
+Buat folder sesuai dengan project name yang kita buat diatas. Dan inisialisasi git dengan git init direktori tersebut.</p>
+<pre>fanani@fanani-laptop:~$ mkdir learn-git
+fanani@fanani-laptop:~$ cd learn-git
+fanani@fanani-laptop:~/learn-git$ git init
+Initialized empty Git repository in /home/fanani/learn-git/.git/
+fanani@fanani-laptop:~/learn-git$</pre>
+<p><strong>git init</strong> : diguanakan untuk mengisialisasi repository git.</p>
+<p>Lihat isi direktori sekarang .</p>
+<pre>fanani@fanani-laptop:~/learn-git$ ls -al
+total 12
+drwxr-xr-x  3 fanani fanani 4096 2011-07-25 16:39 .
+drwxr-xr-x 70 fanani fanani 4096 2011-07-25 16:39 ..
+drwxr-xr-x  7 fanani fanani 4096 2011-07-25 16:39 .git</pre>
+<p>Terdapat direktori .git yang merupakan file repositoy lokal yang kita miliki. Jangan menghapus file tersebut.<br>
+Buat file untuk pertama kali . Seperti contoh file README</p>
+<pre>fanani@fanani-laptop:~/learn-git$ touch README
+fanani@fanani-laptop:~/learn-git$ git add README</pre>
+<p><strong>git add </strong>: digunakan untuk menambah file ke staging 
+area. Staging area adalah area yang bersisi file yang siap di compit ke 
+repository local.</p>
+<p>Bila terdapat file lebih dari satu , kita bisa menambahkan secara rekursif , dengan cara git add &lt;titik&gt;</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git add .</pre>
+<p>Selanjut commit file yang ada di staging area ke repo local.</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git commit -m "first commit"
+[master (root-commit) c08f765] first commit
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README
+fanani@fanani-laptop:~/learn-git$</pre>
+<p><strong>git commit</strong> : Dengan git commit , kita akan mengcommit file ke repository local.</p>
+<p><strong>-m &lt;message log&gt;</strong>: digunakan untuk menambahkan message log pada commit yang kita lakukan<br>
+NOTE * : Dengan git commit , file akan tersimpan ke local repository. 
+Artinya masih didalam laptop / pc , belum terupload ke github.</p>
+<p>Setelah kita commit ke repo local , selanjut nya upload ke repo 
+github agar repo local dan repo remote sinkron. Gunakan git push untuk 
+melakukan hal itu.</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git remote add origin git@github.com:fanani/learn-git.git</pre>
+<p><strong>git add remote add origin</strong> : digunakan untuk menambah &nbsp;remote server</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 212 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:fanani/learn-git.git
+ * [new branch]      master -&gt; master
+Branch master set up to track remote branch master from origin.
+fanani@fanani-laptop:~/learn-</pre>
+<p><strong>git push -u origin master</strong> : digunakan untuk mengepush (mengupload) branch master.</p>
+<p>Sekarang cek repo github kamu. Pasti sudah berubah dengan 1 buah file README didalamnya.</p>
+<p><a href="http://fanani.net/blog/wp-content/uploads/2011/07/first-repo.png"><img title="first-repo" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/first-repo-300x157.htm" alt="" height="157" width="300"></a></p>
+<h3><a name="memanage-repository"></a>5. Memanage Repository</h3>
+<hr>
+<p>Step by step yang kita lakukan pada langkah ke 4 , hanya dilakukan 1 
+kali . Untuk kegunaan sehari-hari kita akan sering menggunakan sintaks –
+ sintaks berikut .</p>
+<h4><a name="5A"></a>a. clone repository</h4>
+<p>Clone repository adalah menggandakan (cloning) repository yang ada di remote server seperti github.</p>
+<pre>fanani@fanani-laptop:~$ git clone git@github.com:fanani/learn-git.git
+Initialized empty Git repository in /home/fanani/learn-git/.git/
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 3 (delta 0)
+Receiving objects: 100% (3/3), done.
+fanani@fanani-laptop:~$</pre>
+<p>Sekarang lihat perubahan yang tejadi , git akan membuat direktori dengan nama seperti yang ada di github.</p>
+<pre>fanani@fanani-laptop:~$ ls
+learn-git
+fanani@fanani-laptop:~$ ls learn-git/
+README
+fanani@fanani-laptop:~$</pre>
+<h4><a name="5B"></a>b. Menambah file dan direktory dan Mengedit File README</h4>
+<p>Selanjutnya agar lebih paham cara penggunaan git , edit file README yang masih kosong dan tambahkan direktory dan file baru .</p>
+<pre>fanani@fanani-laptop:~/learn-git$ nano README
+fanani@fanani-laptop:~/learn-git$ more README
+Ini project belajar git
+fanani@fanani-laptop:~/learn-git$
+fanani@fanani-laptop:~/learn-git$ mkdir images
+fanani@fanani-laptop:/MULTIMEDIA/Picture/aku$ cp fanani-mi.jpg /home/fanani/learn-git/images/</pre>
+<h4><a name="5C"></a><a name="5C"></a>c. Melihat Status Perubahan</h4>
+<p>Karena kita sudah membuat , mengedit file dan direktori baru ,maka 
+gunakan git status untuk melihat perubahan yang terhadi dengan git 
+status .</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git status
+# On branch master
+# Changed but not updated:
+#   (use "git add ..." to update what will be committed)
+#   (use "git checkout -- ..." to discard changes in working directory)
+#
+#	<strong>modified: README</strong>
+#
+# Untracked files:
+#   (use "git add ..." to include in what will be committed)
+#
+#	<strong>images/</strong>
+no changes added to commit (use "git add" and/or "git commit -a")
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Perhatikan terdapat istilah modified README , yang menandakan telah terjadi perubahan pada file readme.<br>
+Terus juga terdapat Untracked file , berarti ada direktori atau file baru yang belum di commit .<br>
+Untuk itu tambahkan ke staging area secara rekursif dengan cara sebagai berikut :</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git add .</pre>
+<p>Cek kembali status perubahan dengan git status .</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD ..." to unstage)
+#
+#	<strong>modified: README</strong>
+#	<strong>new file: images/fanani-mi.jpg</strong>
+#
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Warna status sudah menjadi hijau, artinya file siap untuk di commit ke repository local.</p>
+<h4><a name="5D"></a>d. Mengcommit perubahan ke repository local</h4>
+<p>Setelah file berada di staging area , selanjut nya commit ke repository local.</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git commit -m "menambahkan gambar baru dan edit file README"
+[master 2de8300] menambahkan gambar baru dan edit file README
+ 2 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100755 images/fanani-mi.jpg
+fanani@fanani-laptop:~/learn-git$</pre>
+<h4><a name="5E"></a>e. Mengupload perubahan ke remote repository</h4>
+<p>Sekarang repository local sudah berubah , namun di remote repository 
+belum berubah . Agar di remote juga berubah , gunakan langkah 
+selanjutnya.</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git push
+Counting objects: 7, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 26.29 KiB, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To git@github.com:fanani/learn-git.git
+   03b15b9..2de8300  master -&gt; master
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Terahir cek status</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git status
+# On branch master
+nothing to commit (working directory clean)
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Jika muncul message seperti demikian berarti tidak ada perubahan yang terjadi di repository local kita.</p>
+<h3><a name="tips-and-tricks"></a>6. Advance Tips and Tricks</h3>
+<hr>
+<p>Berikut ini adalah tips dan trik tambahan . Tips ini hanya optional untuk Anda yang advance dan sudah mengerti workflow git.</p>
+<h4><a name="6A"></a>a. Menggunakan git pull</h4>
+<p>Sintak git pull digunakan untuk menupdate perubahan dari remote 
+repository ke local repository. Sintaks ini sangat bergunakan jika kita 
+bekerja dengan 2 orang programer atau lebih.</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git pull</pre>
+<h4><a name="6B"></a>b. Menambah branch</h4>
+<p>Branch didalam git bisa diibaratkan seperti sebuah area kerja. Jika 
+pada langkah sebelmnya kita secara defaul memiliki branch master, maka 
+kita bisa membuat branch tambahan .<br>
+Lihat branch yang ada sekarang</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git branch -a
+* master
+remotes/origin/HEAD -&gt; origin/master
+remotes/origin/master
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Tanda * menunjuk pada branch yang aktit.<br>
+Buat branc baru dengan cara seperti berikut .</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git branch new-version
+fanani@fanani-laptop:~/learn-git$ git branch -a
+* master
+  new-version
+  remotes/origin/HEAD -&gt; origin/master
+  remotes/origin/master
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Masuk ke branch new-vesion</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git checkout new-version
+Switched to branch 'new-version'
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Tambahkan file baru pada new-branch dan commit ke repo local</p>
+<pre>fanani@fanani-laptop:~/learn-git$ touch NEW-VERSION
+fanani@fanani-laptop:~/learn-git$ nano NEW-VERSION
+fanani@fanani-laptop:~/learn-git$ more NEW-VERSION
+File untuk new version
+fanani@fanani-laptop:~/learn-git$ git commit -m "tambah branch new-version"
+[new-version ddc2d06] tambah branch new-version
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 NEW-VERSION
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Push branch ke github</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git push origin new-version
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 347 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:fanani/learn-git.git
+ * [new branch]      new-version -&gt; new-version
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Sekarang lihat pada github, akan terdapat menu baru para branch.</p>
+<p><a href="http://fanani.net/blog/wp-content/uploads/2011/07/branch.png"><img title="branch" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/branch.htm" alt="" height="189" width="288"></a><br>
+NOTE * : Setiap branch memiliki isi file berbeda. Biasanya branch ini 
+digunakan untuk membuat fitur baru tanpa mengganggu branch master yang 
+sudah siap development. Setelah &nbsp;pada new-branch dirasa sudah cukup
+ dan tidak ada bug , kita bisa membuat branch master sinkron dengan 
+branc new-branch dengan cara merge.</p>
+<h4><a name="6C"></a>c. Merge antar branch</h4>
+<p>Pada langkah sebelumnya kita sudah membuat branch baru . Selanjutnya 
+cara untuk gabungkan branch master dengan new-branch. Caranya adalah 
+sebagai berikut .</p>
+<p>checkout dulu ke branch master</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git checkout master
+Switched to branch 'master'
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Merge branch dari master ke new-version</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git merge new-version
+Updating 2de8300..ddc2d06
+Fast-forward
+ NEW-VERSION |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 NEW-VERSION
+fanani@fanani-laptop:~/learn-git$</pre>
+<h4><a name="6D"></a>d. Melihat log dengan gitg</h4>
+<pre>fanani@fanani-laptop:~/learn-git$ gitg</pre>
+<p><a href="http://fanani.net/blog/wp-content/uploads/2011/07/gitg.png"><img title="gitg" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/gitg-300x168.htm" alt="" height="168" width="300"></a></p>
+<h4><a name="6E"></a>e. Membuat file .gitignore</h4>
+<p>Terkadang ada file yang tidak harus di commit ke repo karena beberapa
+ alasan seperti .exe karena file tersebut adalah file hasil compile dan 
+bukan code program. Dengan demikian kita bisa mendisable file .exe agar 
+perubahannya tidak dikenali oleh git.<br>
+cukup buat file .gitignore pada root repo git.</p>
+<pre>fanani@fanani-laptop:~/learn-git$ nano .gitignore
+fanani@fanani-laptop:~/learn-git$ more .gitignore
+*.exe
+*.class
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Langkah terahir add , commit dan push .</p>
+<pre>fanani@fanani-laptop:~/learn-git$ git commit -m "add .gitignore"
+[master 90b563b] add .gitignore
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+fanani@fanani-laptop:~/learn-git$ git push
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 360 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:fanani/learn-git.git
+   2de8300..90b563b  master -&gt; master
+fanani@fanani-laptop:~/learn-git$</pre>
+<p>Dengan demikian jika terdapat file exe, maka file tersebut tidak akan muncul pada saat kita ketik git status.</p>
+<p>Cukup sekian posting “Belajar Git Dengan Github”. Semoga posting ini 
+bisa berkontribusi untuk dunia open source tanah air , dan bisa membantu
+ para programer dalam menyikapi permasalahan dengan version control</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled"><div class="sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-loaded" id="like-post-wrapper-7381411-157" data-src="http://widgets.wp.com/#blog_id=7381411&amp;post_id=157&amp;origin=http://arielthekillers.wordpress.com" data-name="like-post-frame-7381411-157"><h3 class="sd-title">Like this:</h3><div class="post-likes-widget-placeholder" style="height: 55px; display: none;"><span class="button"><span>Suka</span></span> <span class="loading">Memuat...</span></div><iframe style="display: block;" class="post-likes-widget jetpack-likes-widget" name="like-post-frame-7381411-157" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/a.htm" frameborder="0" height="55px" width="100%"></iframe><span class="sd-text-color"></span><a class="sd-link-color"></a></div></div>			</div><!-- .entry-content -->
+
+	</article><!-- #post-157 -->
+
+				
+					<nav role="navigation" id="nav-below" class="site-navigation post-navigation clear-fix">
+		<h1 class="assistive-text">Navigasi tulisan</h1>
+
+	
+		<div class="nav-previous"><a href="http://arielthekillers.wordpress.com/2011/09/25/install-modem-telkomselflash-merk-huawei-e169-di-ubuntu/" rel="prev"><span class="meta-nav">←</span> Install modem telkomselflash merk huawei-e169 di Ubuntu</a></div>		<div class="nav-next"><a href="http://arielthekillers.wordpress.com/2011/09/25/membuat-text-di-dalam-gambar-typography-coreldraw/" rel="next">membuat text di dalam gambar (typography) | CorelDraw <span class="meta-nav">→</span></a></div>
+	
+	</nav><!-- #nav-below -->
+	
+				
+	
+	<div id="comments" class="comments-area">
+
+	
+			<h2 class="comments-title">
+			4 responses on “<span>Belajar Git menggunakan Github</span>”		</h2>
+
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-56">
+		<article id="comment-56" class="comment">
+			<footer>
+				<div class="comment-meta commentmetadata">
+					<img id="grav-2654afcfb71fb2d728597bae3bbb9ca2-0" alt="" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/2654afcfb71fb2d728597bae3bbb9ca2.png" class="avatar avatar-40 grav-hashed grav-hijack" height="40" width="40">
+					<span class="comment-author vcard">
+						<cite class="fn">Soton Junior</cite>					</span>
+
+					<a href="http://arielthekillers.wordpress.com/2011/09/25/belajar-git-menggunakan-github/#comment-56" class="comment-date"><time pubdate="" datetime="2012-05-09T13:31:17+00:00">Mei 9, 2012 pada 1:31 pm</time></a>
+					<span class="sep">·</span>
+										<span class="sep">·</span>
+					<a class="comment-reply-link" href="http://arielthekillers.wordpress.com/2011/09/25/belajar-git-menggunakan-github/?replytocom=56#respond" onclick='return addComment.moveForm("comment-56", "56", "respond", "157")'>Balas</a> →				</div><!-- .comment-meta .commentmetadata -->
+							</footer>
+			<div class="comment-content"><p>Mantap om penjelasannya ^_^<br>
+Lengkap banget ..</p>
+</div>
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-arielthekillers bypostauthor odd alt depth-2 highlander-comment" id="li-comment-57">
+		<article id="comment-57" class="comment">
+			<footer>
+				<div class="comment-meta commentmetadata">
+					<img id="grav-0213ea3735bd1e8e4f209276e0d9cd14-0" alt="" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/0213ea3735bd1e8e4f209276e0d9cd14.jpg" class="avatar avatar-40 grav-hashed grav-hijack" height="40" width="40">
+					<span class="comment-author vcard">
+						<cite class="fn">arielthekillers</cite>					</span>
+
+					<a href="http://arielthekillers.wordpress.com/2011/09/25/belajar-git-menggunakan-github/#comment-57" class="comment-date"><time pubdate="" datetime="2012-05-09T14:46:39+00:00">Mei 9, 2012 pada 2:46 pm</time></a>
+					<span class="sep">·</span>
+										<span class="sep">·</span>
+					<a class="comment-reply-link" href="http://arielthekillers.wordpress.com/2011/09/25/belajar-git-menggunakan-github/?replytocom=57#respond" onclick='return addComment.moveForm("comment-57", "57", "respond", "157")'>Balas</a> →				</div><!-- .comment-meta .commentmetadata -->
+							</footer>
+			<div class="comment-content"><p>Terima kasih atas kunjungannya gan,,,<br>
+kalau sudah di coba, dan ada masukan bisa kirim feedback kembali ke sini,,</p>
+<p>Semangat…</p>
+</div>
+		</article><!-- #comment-## -->
+
+	</li>
+</ul>
+</li>
+	<li class="post pingback">
+		<p>Ping-balik: <a href="http://saifiahmada.wordpress.com/2013/01/16/714/" rel="external nofollow" class="url">saifiahmada</a><span class="sep">·</span></p>
+	</li>
+	<li class="post pingback">
+		<p>Ping-balik: <a href="http://saifiahmada.wordpress.com/2013/01/16/belajar-github-add-commit-push-repo-local-dan-remote/" rel="external nofollow" class="url">belajar github add commit push repo local dan remote « saifiahmada</a><span class="sep">·</span></p>
+	</li>
+		</ol>
+
+		
+	
+	
+									<div class="js" id="respond">
+				<h3 id="reply-title">Tinggalkan Balasan <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://arielthekillers.wordpress.com/2011/09/25/belajar-git-menggunakan-github/#respond" style="display:none;">Batalkan balasan</a></small></h3>
+									<form action="http://arielthekillers.wordpress.com/wp-comments-post.php" method="post" id="commentform">
+																										
+
+
+												
+<input name="hc_post_as" id="hc_post_as" value="guest" type="hidden">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="height: 80px; resize: none; overflow-y: hidden; position: absolute; top: 0px; left: -9999px; width: 448px; line-height: 24.5px; text-decoration: none; letter-spacing: 0px;" placeholder="Enter your comment here..."></textarea><textarea style="height: 80px; resize: none; overflow-y: hidden;" placeholder="Enter your comment here..." id="comment" name="comment"></textarea></div>
+</div>
+
+<div style="display: none;" id="comment-form-identity">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/ad516503a11cd5ca435acc9bb6523536.png" alt="Gravatar" class="no-grav" width="25">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Surel <span class="required">(wajib)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email"></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Nama <span class="required">(wajib)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text"></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Situs web</label>
+					<div class="comment-form-input"><input id="url" name="url" type="text"></div>
+				</div> 
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/wplogo.png" alt="WordPress.com Logo" class="no-grav" width="25">
+			</div>
+
+				<div class="comment-form-fields">
+				<input name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="" type="hidden">
+				<input name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="" type="hidden">
+				<input name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="" type="hidden">
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout(%20'wordpress'%20);">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Ubah</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/ad516503a11cd5ca435acc9bb6523536.png" alt="Twitter picture" class="no-grav" width="25">
+			</div>
+
+				<div class="comment-form-fields">
+				<input name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="" type="hidden">
+				<input name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="" type="hidden">
+				<input name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="" type="hidden">
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout(%20'twitter'%20);">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Ubah</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/ad516503a11cd5ca435acc9bb6523536.png" alt="Facebook photo" class="no-grav" width="25">
+			</div>
+
+				<div class="comment-form-fields">
+				<input name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="" type="hidden">
+				<input name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="" type="hidden">
+				<input name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="" type="hidden">
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout(%20'facebook'%20);">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Ubah</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Batal</a></div>
+		<p>Connecting to %s</p>
+	</div>
+	
+	
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+});
+</script>
+
+<div style="display: none;" id="comment-form-subscribe"> 
+	<p class="comment-subscription-form"><input name="subscribe" id="subscribe" value="subscribe" style="width: auto;" tabindex="6" type="checkbox"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Beritahu saya balasan komentar lewat surat elektronik.</label></p></div>
+
+												<p style="display: none;" class="form-submit">
+							<input name="submit" id="comment-submit" value="Kirim Komentar" type="submit">
+							<input name="comment_post_ID" value="157" id="comment_post_ID" type="hidden">
+<input name="comment_parent" id="comment_parent" value="0" type="hidden">
+						</p>
+						
+<input name="genseq" value="1361440254" type="hidden">
+<p style="display: none;"><input id="akismet_comment_nonce" name="akismet_comment_nonce" value="086f73044f" type="hidden"></p><script type="text/javascript" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/form.js"></script>
+<p style="display: none;"><input id="ak_js" name="ak_js" value="1361440263560" type="hidden"></p>					</form>
+							</div><!-- #respond -->
+			<div style="clear: both"></div>			
+</div><!-- #comments .comments-area -->
+			
+			</div><!-- #content -->
+		</div><!-- #primary .site-content -->
+
+<div id="secondary" class="clear-fix" role="complementary">
+
+
+	<nav role="navigation" class="site-navigation menu-secondary">
+		<div class="menu-web-from-scratch-container"><ul id="menu-web-from-scratch" class="menu"><li id="menu-item-311" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-311"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/html/">HTML</a>
+<ul class="sub-menu">
+	<li id="menu-item-312" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-312"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/html/html-html/">HTML</a></li>
+	<li id="menu-item-313" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-313"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/html/html5/">HTML5</a></li>
+</ul>
+</li>
+<li id="menu-item-308" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-308"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/css-stylesheet/">CSS Stylesheet</a>
+<ul class="sub-menu">
+	<li id="menu-item-309" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-309"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/css-stylesheet/css/">CSS</a></li>
+	<li id="menu-item-310" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-310"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/css-stylesheet/css3/">CSS3</a></li>
+</ul>
+</li>
+<li id="menu-item-314" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-314"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/javascript/">JavaScript</a></li>
+<li id="menu-item-315" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-315"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/server-side/">Server Side</a>
+<ul class="sub-menu">
+	<li id="menu-item-317" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-317"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/server-side/php/">PHP</a></li>
+	<li id="menu-item-316" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-316"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/server-side/mysql/">MySql</a></li>
+</ul>
+</li>
+</ul></div>	</nav><!-- .menu-secondary -->
+
+
+	<div class="widget-area" role="complementary">
+
+	
+	<aside id="top-posts-3" class="widget widget_top-posts"><h1 class="widgettitle">Artikel Terpopuler</h1><ul><li><a href="http://arielthekillers.wordpress.com/2011/09/21/php-jquery-membuat-multilevel-menu-horizontal-unlimited/" class="bump-view" data-bump-view="tp">php jquery : Membuat multilevel menu horizontal [unlimited]</a></li>
+<li><a href="http://arielthekillers.wordpress.com/2011/09/25/belajar-git-menggunakan-github/" class="bump-view" data-bump-view="tp">Belajar Git menggunakan Github</a></li>
+<li><a href="http://arielthekillers.wordpress.com/2011/09/21/php-jquery-input-tanggal-menggunakan-datetimepicker-jquery/" class="bump-view" data-bump-view="tp">PHP - Jquery : Input tanggal menggunakan datetimepicker jquery</a></li>
+<li><a href="http://arielthekillers.wordpress.com/2011/10/15/e-book-gratis-tutorial-codeigniter/" class="bump-view" data-bump-view="tp">E-book Gratis - Tutorial Codeigniter (CI)</a></li>
+<li><a href="http://arielthekillers.wordpress.com/2011/09/24/tips-agar-blog-cepat-diakses-wordpress/" class="bump-view" data-bump-view="tp">Tips agar blog cepat diakses [wordpress]</a></li>
+</ul></aside><aside id="text-4" class="widget widget_text"><h1 class="widgettitle">Relationship</h1>			<div class="textwidget"><p align="center">
+<a href="http://blitza679.com/" title="Blitza Remigion 679" target="_blank"><img src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/banner_blitzaremigion_small1.png" alt="Website Resmi Blitza Remigion 679" border="0"></a></p></div>
+		</aside>
+	</div><!-- .widget-area -->
+
+</div><!-- #secondary --><div id="tertiary" class="widget-area" role="complementary">
+
+	
+	<aside id="twitter-3" class="widget widget_twitter"><h1 class="widgettitle"><a href="http://twitter.com/arielthekillers">My Twitter Updates</a></h1><ul class="tweets">
+			<li>
+				<a href="http://twitter.com/search?q=%23ifihadglass">#ifihadglass</a> I would climb the Bawakaraeng mountain, and when i got to the top I will fly the google flag.on 				<a href="http://twitter.com/arielthekillers/statuses/304262591142850560" class="timesince">17&nbsp;hours&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				colek @<a href="http://twitter.com/tanyabudi">tanyabudi</a> delivery yang lagi Up.on 				<a href="http://twitter.com/arielthekillers/statuses/303737457097203712" class="timesince">2&nbsp;days&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				betulan iyya.. masa gosip :D RT @<a href="http://twitter.com/Indahalwayz">Indahalwayz</a> Betulan itu kakak ? @<a href="http://twitter.com/arielthekillers">arielthekillers</a>on 				<a href="http://twitter.com/arielthekillers/statuses/303451947921440768" class="timesince">2&nbsp;days&nbsp;ago</a>
+			</li>
+
+			</ul><iframe data-twttr-rendered="true" title="Twitter Follow Button" style="width: 139px; height: 20px;" class="twitter-follow-button twitter-follow-button" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/follow_button.htm" allowtransparency="true" frameborder="0" scrolling="no"></iframe></aside><aside id="categories-2" class="widget widget_categories"><h1 class="widgettitle">Kategori</h1>		<ul>
+			<li class="cat-item cat-item-681616"><a href="http://arielthekillers.wordpress.com/category/cms-content-management-system/" title="Lihat seluruh tulisan dalam CMS (Content Management System)">CMS (Content Management System)</a> (4)
+</li>
+	<li class="cat-item cat-item-102237"><a href="http://arielthekillers.wordpress.com/category/multimedia/desain-grafis/coreldraw/" title="Lihat seluruh tulisan dalam coreldraw">coreldraw</a> (1)
+</li>
+	<li class="cat-item cat-item-1862267"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/css-stylesheet/" title="Lihat seluruh tulisan dalam CSS Stylesheet">CSS Stylesheet</a> (2)
+</li>
+	<li class="cat-item cat-item-26091"><a href="http://arielthekillers.wordpress.com/category/multimedia/desain-grafis/" title="Lihat seluruh tulisan dalam Desain Grafis">Desain Grafis</a> (1)
+</li>
+	<li class="cat-item cat-item-647"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/html/" title="Lihat seluruh tulisan dalam HTML">HTML</a> (2)
+</li>
+	<li class="cat-item cat-item-3020"><a href="http://arielthekillers.wordpress.com/category/cms-content-management-system/joomla/" title="Lihat seluruh tulisan dalam Joomla">Joomla</a> (5)
+</li>
+	<li class="cat-item cat-item-14789"><a href="http://arielthekillers.wordpress.com/category/komputer/" title="Lihat seluruh tulisan dalam Komputer">Komputer</a> (2)
+</li>
+	<li class="cat-item cat-item-32190371"><a href="http://arielthekillers.wordpress.com/category/networking/lan-wan-man/" title="Lihat seluruh tulisan dalam LAN-WAN-MAN">LAN-WAN-MAN</a> (3)
+</li>
+	<li class="cat-item cat-item-610"><a href="http://arielthekillers.wordpress.com/category/sistem-operasi/linux/" title="Lihat seluruh tulisan dalam Linux">Linux</a> (3)
+</li>
+	<li class="cat-item cat-item-65123217"><a href="http://arielthekillers.wordpress.com/category/security/malware-networking-security/" title="virus, worm, trojan, rootkit, dll,">Malware</a> (1)
+</li>
+	<li class="cat-item cat-item-120"><a href="http://arielthekillers.wordpress.com/category/mobile/" title="Lihat seluruh tulisan dalam Mobile">Mobile</a> (1)
+</li>
+	<li class="cat-item cat-item-258918"><a href="http://arielthekillers.wordpress.com/category/networking/mobile-broadband/" title="Lihat seluruh tulisan dalam Mobile Broadband">Mobile Broadband</a> (1)
+</li>
+	<li class="cat-item cat-item-7426"><a href="http://arielthekillers.wordpress.com/category/networking/" title="Lihat seluruh tulisan dalam networking">networking</a> (5)
+</li>
+	<li class="cat-item cat-item-65123513"><a href="http://arielthekillers.wordpress.com/category/komputer/pc-notebook-netbook/" title="Lihat seluruh tulisan dalam PC/ Notebook/ Netbook">PC/ Notebook/ Netbook</a> (1)
+</li>
+	<li class="cat-item cat-item-458"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/server-side/php/" title="Lihat seluruh tulisan dalam PHP">PHP</a> (14)
+</li>
+	<li class="cat-item cat-item-24194809"><a href="http://arielthekillers.wordpress.com/category/programming-2/" title="Lihat seluruh tulisan dalam Programming">Programming</a> (3)
+</li>
+	<li class="cat-item cat-item-801"><a href="http://arielthekillers.wordpress.com/category/security/" title="Lihat seluruh tulisan dalam Security">Security</a> (3)
+</li>
+	<li class="cat-item cat-item-107422"><a href="http://arielthekillers.wordpress.com/category/sistem-operasi/" title="Lihat seluruh tulisan dalam Sistem Operasi">Sistem Operasi</a> (2)
+</li>
+	<li class="cat-item cat-item-581"><a href="http://arielthekillers.wordpress.com/category/komputer/software/" title="Lihat seluruh tulisan dalam Software">Software</a> (3)
+</li>
+	<li class="cat-item cat-item-255"><a href="http://arielthekillers.wordpress.com/category/sistem-operasi/linux/ubuntu/" title="Lihat seluruh tulisan dalam Ubuntu">Ubuntu</a> (9)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://arielthekillers.wordpress.com/category/uncategorized/" title="Lihat seluruh tulisan dalam Uncategorized">Uncategorized</a> (1)
+</li>
+	<li class="cat-item cat-item-5936695"><a href="http://arielthekillers.wordpress.com/category/programming-2/web-base/" title="Lihat seluruh tulisan dalam Web-base">Web-base</a> (5)
+</li>
+	<li class="cat-item cat-item-800"><a href="http://arielthekillers.wordpress.com/category/sistem-operasi/windows/" title="Lihat seluruh tulisan dalam Windows">Windows</a> (1)
+</li>
+	<li class="cat-item cat-item-33"><a href="http://arielthekillers.wordpress.com/category/cms-content-management-system/wordpress/" title="Lihat seluruh tulisan dalam Wordpress">Wordpress</a> (1)
+</li>
+		</ul>
+</aside>
+</div><!-- #secondary .widget-area -->
+	</div><!-- #main -->
+
+	<div id="supplementary" class="clear-fix three">
+		<div id="footer-sidebar-one" class="widget-area" role="complementary">
+		<aside id="facebook-likebox-3" class="widget widget_facebook_likebox"><h1 class="widgettitle"><a href="http://www.facebook.com/pages/arielthekillers/210448762313674">Fan Page</a></h1><iframe src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/likebox.htm" style="border: none; overflow: hidden; width: 290px;  height: 210px; background: #fff" frameborder="0" scrolling="no"></iframe></aside>	</div><!-- #first .widget-area -->
+	
+		<div id="footer-sidebar-two" class="widget-area" role="complementary">
+		<aside id="wp_tag_cloud" class="widget wp_widget_tag_cloud"><h1 class="widgettitle">Tags</h1><div style="overflow:hidden"><a href="http://arielthekillers.wordpress.com/tag/apache/" class="tag-link-3768" title="1 topik" style="font-size: 8pt;">Apache</a>
+<a href="http://arielthekillers.wordpress.com/tag/blackberry/" class="tag-link-8224" title="1 topik" style="font-size: 8pt;">Blackberry</a>
+<a href="http://arielthekillers.wordpress.com/tag/css/" class="tag-link-169" title="1 topik" style="font-size: 8pt;">CSS</a>
+<a href="http://arielthekillers.wordpress.com/tag/driver/" class="tag-link-129841" title="1 topik" style="font-size: 8pt;">driver</a>
+<a href="http://arielthekillers.wordpress.com/tag/ebook/" class="tag-link-1719" title="1 topik" style="font-size: 8pt;">eBook</a>
+<a href="http://arielthekillers.wordpress.com/tag/extension/" class="tag-link-5024" title="1 topik" style="font-size: 8pt;">extension</a>
+<a href="http://arielthekillers.wordpress.com/tag/facebook/" class="tag-link-81819" title="2 topik" style="font-size: 12.2pt;">Facebook</a>
+<a href="http://arielthekillers.wordpress.com/tag/jaringan/" class="tag-link-55311" title="2 topik" style="font-size: 12.2pt;">Jaringan</a>
+<a href="http://arielthekillers.wordpress.com/tag/joomla/" class="tag-link-3020" title="4 topik" style="font-size: 17.333333333333pt;">Joomla</a>
+<a href="http://arielthekillers.wordpress.com/tag/jquery/" class="tag-link-203308" title="6 topik" style="font-size: 20.833333333333pt;">jquery</a>
+<a href="http://arielthekillers.wordpress.com/tag/linu/" class="tag-link-330141" title="1 topik" style="font-size: 8pt;">Linu</a>
+<a href="http://arielthekillers.wordpress.com/tag/linux/" class="tag-link-610" title="7 topik" style="font-size: 22pt;">Linux</a>
+<a href="http://arielthekillers.wordpress.com/tag/malware/" class="tag-link-15593" title="1 topik" style="font-size: 8pt;">Malware</a>
+<a href="http://arielthekillers.wordpress.com/tag/modem/" class="tag-link-41339" title="1 topik" style="font-size: 8pt;">modem</a>
+<a href="http://arielthekillers.wordpress.com/tag/notebook/" class="tag-link-7951" title="1 topik" style="font-size: 8pt;">Notebook</a>
+<a href="http://arielthekillers.wordpress.com/tag/php-2/" class="tag-link-25985434" title="4 topik" style="font-size: 17.333333333333pt;">php</a>
+<a href="http://arielthekillers.wordpress.com/tag/printer/" class="tag-link-68962" title="1 topik" style="font-size: 8pt;">printer</a>
+<a href="http://arielthekillers.wordpress.com/tag/release/" class="tag-link-7781" title="1 topik" style="font-size: 8pt;">release</a>
+<a href="http://arielthekillers.wordpress.com/tag/tips/" class="tag-link-1788" title="4 topik" style="font-size: 17.333333333333pt;">tips</a>
+<a href="http://arielthekillers.wordpress.com/tag/tutorial/" class="tag-link-2932" title="2 topik" style="font-size: 12.2pt;">tutorial</a>
+<a href="http://arielthekillers.wordpress.com/tag/ubuntu/" class="tag-link-255" title="5 topik" style="font-size: 19.2pt;">Ubuntu</a>
+<a href="http://arielthekillers.wordpress.com/tag/virus/" class="tag-link-6827" title="1 topik" style="font-size: 8pt;">Virus</a>
+<a href="http://arielthekillers.wordpress.com/tag/web/" class="tag-link-151" title="1 topik" style="font-size: 8pt;">web</a>
+<a href="http://arielthekillers.wordpress.com/tag/windows/" class="tag-link-800" title="1 topik" style="font-size: 8pt;">Windows</a>
+<a href="http://arielthekillers.wordpress.com/tag/worm/" class="tag-link-165019" title="1 topik" style="font-size: 8pt;">Worm</a></div></aside>	</div><!-- #second .widget-area -->
+	
+		<div id="footer-sidebar-three" class="widget-area" role="complementary">
+		<aside id="linkcat-1356" class="widget widget_links"><h1 class="widgettitle">Blogroll</h1>
+	<ul class="xoxo blogroll">
+<li><a href="http://binushacker.org/" title="Komunitas Security Binus" target="_blank">Binus Hacker Community</a></li>
+<li><a href="http://makassar.linux.or.id/" title="Linux User Group Ujungpandang">LUGU Makassar</a></li>
+<li><a href="http://www.musaamin.web.id/">musa amin</a></li>
+<li><a href="http://relawan-tik.org/">Relawan TIK</a></li>
+<li><a href="http://www.stimednp.ac.id/" title="Sekolah Tinggi Informatika dan Multimedia Nusa Palapa">Stimed Nusa Palapa</a></li>
+<li><a href="http://wordpress.com/">WordPress.com</a></li>
+
+	</ul>
+</aside>
+	</div><!-- #third .widget-area -->
+	
+	</div><!-- #supplementary -->
+	<footer id="colophon" class="site-footer clear-fix" role="contentinfo">
+		<div class="site-info">
+						<a href="http://id.wordpress.com/?ref=footer" rel="generator">Blog pada WordPress.com</a>.
+			<span class="sep"> | </span>
+			Tema: Oxygen oleh <a href="http://alienwp.com/" rel="designer">AlienWP</a>.		</div><!-- .site-info -->
+			</footer><!-- .site-footer .site-footer -->
+</div><!-- #page .hfeed .site -->
+
+
+<script type="text/javascript">
+var _qevents = _qevents || [], wpcomQuantcastData = {"qacct":"p-18-mFEk4J448M","labels":",language.id,type.wpcom"};
+function wpcomQuantcastPixel( labels, options ) {
+	var i, defaults = wpcomQuantcastData, data = { event: 'ajax' };
+
+	labels  = labels  || '';
+	options = options || {};
+
+	if ( typeof labels != 'string' )
+		options = labels;
+
+	for ( i in defaults ) {
+		data[i] = defaults[i];
+	}
+
+	for ( i in options ) {
+		data[i] = options[i];
+	}
+
+	if ( data.labels ) {
+		data.labels += ',' + labels;
+	} else {
+		data.labels = labels;
+	}
+
+	_qevents.push( data );
+};
+(function() {var elem = document.createElement('script');elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";elem.async = true;elem.type = "text/javascript";var scpt = document.getElementsByTagName('script')[0];scpt.parentNode.insertBefore(elem, scpt);  })();
+_qevents.push( wpcomQuantcastData );
+</script>
+<noscript><div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif?labels=%2Clanguage.id%2Ctype.wpcom" height="1" width="1" alt="" /></div></noscript>
+
+<script type="text/javascript" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/gprofiles.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/wpgroho.js"></script>
+<script>jQuery(document).ready(function($){ Gravatar.profile_cb = function( h, d ) { WPGroHo.syncProfileData( h, d );	}; Gravatar.my_hash = WPGroHo.my_hash; Gravatar.init( 'body', '#wp-admin-bar-my-account' ); });</script>	<div style="display:none">
+	<div class="grofile-hash-map-2654afcfb71fb2d728597bae3bbb9ca2">
+	</div>
+	<div class="grofile-hash-map-0213ea3735bd1e8e4f209276e0d9cd14">
+	</div>
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Kirim Komentar","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Keluar","loginText":"Masuk","connectURL":"http:\/\/arielthekillers.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"http:\/\/arielthekillers.wordpress.com\/wp-login.php?action=logout&_wpnonce=e0dff3f2ce","homeURL":"http:\/\/arielthekillers.wordpress.com\/","postID":"157","gravDefault":"identicon","enterACommentError":"Silakan masukkan komentar","enterEmailError":"Please enter your email address here","invalidEmailError":"Alamat email tidak valid","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Ubah","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"","isJetpack":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/script.js"></script>
+
+	<div style="bottom: -242px;" id="bit" class="loggedout-follow-normal">
+		<a class="bsub" href="javascript:void(0)"><span id="bsub-text">Ikuti</span></a>
+		<div id="bitsubscribe">
+
+					<h3><label for="loggedout-follow-field">Follow “Arielthekillers's Blog”</label></h3>
+
+			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="loggedout-follow">
+			<p>Get every new post delivered to your Inbox.</p>
+
+			<p id="loggedout-follow-error" style="display: none;"></p>
+
+			
+			<p><input name="email" style="width: 95%; padding: 1px 2px" value="Enter your email address" onfocus='this.value=(this.value=="Enter your email address") ? "" : this.value;' onblur='this.value=(this.value=="") ? "Enter email address" : this.value;' id="loggedout-follow-field" type="email"></p>
+
+			<input name="action" value="subscribe" type="hidden">
+			<input name="blog_id" value="7381411" type="hidden">
+			<input name="source" value="http://arielthekillers.wordpress.com/2011/09/25/belajar-git-menggunakan-github/" type="hidden">
+			<input name="sub-type" value="loggedout-follow" type="hidden">
+
+			<input id="_wpnonce" name="_wpnonce" value="7795ba3156" type="hidden"><input name="_wp_http_referer" value="/2011/09/25/belajar-git-menggunakan-github/" type="hidden">
+			<p id="bsub-subscribe-button"><input value="Sign me up" type="submit"></p>
+			</form>
+					<div id="bsub-credit"><a href="http://wordpress.com/signup/?ref=lof">Powered by WordPress.com</a></div>
+		</div><!-- #bitsubscribe -->
+	</div><!-- #bit -->
+		<iframe src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/master.htm" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script type="text/javascript">
+		//<![CDATA[
+			var jetpackLikesWidgetQueue = [];
+			var jetpackLikesMasterReady = false;
+
+			function JetpackLikespostMessage( message, target ) {
+				if ( "string" === typeof message ){
+					try{
+						message = JSON.parse( message );
+					}
+					catch(e) {
+						return;
+					}
+				}
+
+				pm( {
+					target: target,
+					type: 'likesMessage',
+					data: message,
+					origin: '*'					
+				} );
+			}
+
+			function JetpackLikesMessageListener( event ) {
+				if ( "undefined" == typeof event.event )
+					return;
+
+				if ( 'masterReady' == event.event ) {
+					jQuery( document ).ready( function() {
+						jetpackLikesMasterReady = true;
+
+						var stylesData = {
+								event: 'injectStyles'
+						};
+
+						if ( jQuery( 'iframe.admin-bar-likes-widget' ).length > 0 ) {
+							JetpackLikespostMessage( { event: 'adminBarEnabled' }, window.frames[ 'likes-master' ] );
+
+							stylesData.adminBarStyles = {
+								background: jQuery( '#wpadminbar .quicklinks li#wp-admin-bar-wpl-like > a' ).css( 'background' )
+							};
+						}
+
+						if ( !window.addEventListener )
+							jQuery( '#wp-admin-bar-admin-bar-likes-widget' ).hide();
+
+						stylesData.textStyles = {
+							color: jQuery( '.sd-text-color').css( 'color' ),
+							fontFamily: jQuery( '.sd-text-color' ).css( 'font-family' ),
+							fontSize: jQuery( '.sd-text-color' ).css( 'font-size' ),
+							direction: jQuery( '.sd-text-color' ).css( 'direction' ),
+							fontWeight: jQuery( '.sd-text-color' ).css( 'font-weight' ),
+							fontStyle: jQuery( '.sd-text-color' ).css( 'font-style' ),
+							textDecoration: jQuery( '.sd-text-color' ).css('text-decoration')
+						};
+
+						stylesData.linkStyles = {
+							color: jQuery( '.sd-link-color' ).css('color'),
+							fontFamily: jQuery( '.sd-link-color' ).css('font-family'),
+							fontSize: jQuery( '.sd-link-color' ).css('font-size'),
+							textDecoration: jQuery( '.sd-link-color' ).css('text-decoration'),
+							fontWeight: jQuery( '.sd-link-color' ).css( 'font-weight' ),
+							fontStyle: jQuery( '.sd-link-color' ).css( 'font-style' )
+						};
+
+						JetpackLikespostMessage( stylesData, window.frames[ 'likes-master' ] );
+
+						var requests = [];
+						jQuery( '.jetpack-likes-widget-wrapper' ).each( function( i ) {
+							var regex = /like-(post|comment)-wrapper-(\d+)-(\d+)/;
+							var match = regex.exec( this.id );
+							if ( ! match || match.length != 4 )
+								return;
+
+							var info = {
+								blog_id: match[2],
+								width:   this.width
+							};
+
+							if ( 'post' == match[1] ) {
+								info.post_id = match[3];
+							} else if ( 'comment' == match[1] ) {
+								info.comment_id = match[3];
+							}
+
+							requests.push( info );
+						});
+
+						JetpackLikespostMessage( { event: 'initialBatch', requests: requests }, window.frames['likes-master'] );
+
+						jQuery( document ).on( 'inview', 'div.jetpack-likes-widget-unloaded', function() {
+							jetpackLikesWidgetQueue.push( this.id );
+						});
+					});
+				}
+
+				if ( 'showLikeWidget' == event.event ) {
+					setTimeout( JetpackLikesWidgetQueueHandler, 10 );
+					jQuery( '#' + event.id + ' .post-likes-widget-placeholder'  ).fadeOut( 'fast', function() {
+						jQuery( '#' + event.id + ' .post-likes-widget' ).fadeIn( 'fast' );
+					});
+				}
+
+				if ( 'showOtherGravatars' == event.event ) {
+					var $container = jQuery( '#likes-other-gravatars' );
+					var $list = $container.find( 'ul' );
+
+					$container.hide();
+					$list.html( '' );
+
+					$container.find( '.likes-text span' ).text( event.total );
+
+					jQuery.each( event.likers, function( i, liker ) {
+						$list.append( '<li class="' + liker.css_class + '"><a href="' + liker.profile_URL + '" class="wpl-liker" rel="nofollow" target="_parent"><img src="' + liker.avatar_URL + '" alt="' + liker.name + '" width="30" height="30" style="padding-right: 3px;" /></a></li>');
+					} );
+
+					var offset = jQuery( "[name='" + event.parent + "']" ).offset();
+
+					$container.css( 'left', offset.left + event.position.left - 10 + 'px' );
+					$container.css( 'top', offset.top + event.position.top - 33 + 'px' );
+
+					var rowLength = Math.floor( event.width / 37 );
+					var height = ( Math.ceil( event.likers.length / rowLength ) * 37 ) + 13;
+					if ( height > 204 ) {
+						height = 204;
+					}
+
+					$container.css( 'height', height + 'px' );
+					$container.css( 'width', rowLength * 37 - 7 + 'px' );
+
+					$list.css( 'width', rowLength * 37 + 'px' );
+
+					$container.fadeIn( 'slow' );
+
+					var scrollbarWidth = $list[0].offsetWidth - $list[0].clientWidth;
+					if ( scrollbarWidth > 0 ) {
+						$container.width( $container.width() + scrollbarWidth );
+						$list.width( $list.width() + scrollbarWidth );
+					}
+				}
+			}
+
+			pm.bind( 'likesMessage', function(e) { JetpackLikesMessageListener(e); } );
+
+			jQuery( document ).click( function( e ) {
+				var $container = jQuery( '#likes-other-gravatars' );
+
+				if ( $container.has( e.target ).length === 0 ) {
+					$container.fadeOut( 'slow' );
+				}
+			});
+
+			function JetpackLikesWidgetQueueHandler() {
+				var wrapperID;
+				if ( ! jetpackLikesMasterReady ) {
+					setTimeout( JetpackLikesWidgetQueueHandler, 500 );
+					return;
+				}
+
+				if ( jetpackLikesWidgetQueue.length > 0 ) {
+					// We may have a widget that needs creating now
+					var found = false;
+					while( jetpackLikesWidgetQueue.length > 0 ) {
+						// Grab the first member of the queue that isn't already loading.
+						wrapperID = jetpackLikesWidgetQueue.splice( 0, 1 )[0];
+						if ( jQuery( '#' + wrapperID ).hasClass( 'jetpack-likes-widget-unloaded' ) ) {
+							found = true;
+							break;
+						}
+					}
+					if ( ! found ) {
+						setTimeout( JetpackLikesWidgetQueueHandler, 500 );
+						return;
+					}
+				} else if ( jQuery( 'div.jetpack-likes-widget-unloaded' ).length > 0 ) {
+					// Get the next unloaded widget
+					wrapperID = jQuery( 'div.jetpack-likes-widget-unloaded' ).first()[0].id;
+					if ( ! wrapperID ) {
+						// Everything is currently loaded
+						setTimeout( JetpackLikesWidgetQueueHandler, 500 );
+						return;
+					}
+				}
+
+				var $wrapper = jQuery( '#' + wrapperID );
+				$wrapper.find( 'iframe' ).remove();
+
+				$wrapper.find( '.post-likes-widget-placeholder' ).after( "<iframe class='post-likes-widget jetpack-likes-widget' name='" + $wrapper.data( 'name' ) + "' height='55px' width='100%' frameBorder='0' src='" + $wrapper.data( 'src' ) + "'></iframe>" );
+
+
+				$wrapper.removeClass( 'jetpack-likes-widget-unloaded' ).addClass( 'jetpack-likes-widget-loading' );
+
+				$wrapper.find( 'iframe' ).load( function( e ) {
+					var $iframe = jQuery( e.target );
+					$wrapper.removeClass( 'jetpack-likes-widget-loading' ).addClass( 'jetpack-likes-widget-loaded' );
+
+					/*try {
+						$iframe.Jetpack( 'resizeable' );
+					}
+					catch ( error ) {}*/
+					JetpackLikespostMessage( { event: 'loadLikeWidget', name: $iframe.attr( 'name' ), width: $iframe.width() }, window.frames[ 'likes-master' ] );
+				});
+			}
+			setInterval( JetpackLikesWidgetQueueHandler, 250 );
+		//]]>
+		</script>
+<script type="text/javascript" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/widgets.js"></script>
+<script type="text/javascript" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/a_002.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/w.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({'blog':'7381411','v':'wpcom','tz':'0','user_id':'0','post':'157','subd':'arielthekillers'});
+ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1wamRFTUJvcCVmdVtvcCUrditEcC5rdHw4JUQsQU4vR3dMJT82VTRnczRMU105WE5qZWtoXWczU3FUeU5sTDVWJms3S3Q3PzkvclV3Mi1seEVzR2pWW0p4bHN8SHpwWFJ0aVN+Z1M5UVhSRj1rcGp3eT9MdkJmNnFlenNacXRRRHFCYVpiKyZRZDlYbCVfbi0zZmQlb1pNXXhxS2xUajFxam1oYSwveFBIZWprLUVJWE0ldHlyX089OUldeT01cVRkdlV4UiZUVTZZNjlTSHNUSVBbM3RUOFQtR0MuMXB6UGglN1hST1ZyOG5zZXNDQ2h8aUVTdEU2VWt4cFhdUGorRWd6S1pKSE93SXk4MFdrNCZBWmd4M3dRbVljVXNoVA=='});
+addLoadEvent(function(){linktracker_init('7381411',157);});
+	</script><img id="wpstats" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/g_002.gif" alt=""><img id="wpstats2" src="Belajar%20Git%20menggunakan%20Github%20_%20Arielthekillers%27s%20Blog_files/g.gif" alt="" style="display:none">
+<noscript><img src="http://stats.wordpress.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+
+
+</body></html>
