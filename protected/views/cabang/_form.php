@@ -22,10 +22,9 @@
 	</div>
 	
 	<div class="row" >
-		<?php if ($model->parent_id != 0)
-		echo $form->labelEx($model,'parent_id'); ?>
-		<?php if ($model->parent_id != 0)echo $form->dropDownList($model,'parent_id', $model->getParentDropdown()); ?>
-		<?php if ($model->parent_id != 0) echo $form->error($model,'parent_id'); ?>
+		<?php echo $form->labelEx($model,'parent_id'); ?>
+		<?php echo $form->dropDownList($model,'parent_id', $model->getParentDropdown()); ?>
+		<?php echo $form->error($model,'parent_id'); ?>
 	</div>
 
 	
