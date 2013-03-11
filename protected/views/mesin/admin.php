@@ -89,6 +89,11 @@ $this->widget('CTreeView',array(
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
+		array(
+			'name'=>'cabang_id',
+			'value'=>'$data->getCabangText()',
+			'filter'=>Mesin::model()->getCabangOptions(),
+		),
 		'barcode',
 		'user',
 		'divisi',

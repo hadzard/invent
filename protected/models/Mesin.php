@@ -140,7 +140,7 @@ class Mesin extends ModelBase
 		$criteria->compare('create_user_id',$this->create_user_id);
 		$criteria->compare('update_time',$this->update_time,true);
 		$criteria->compare('update_user_id',$this->update_user_id);
-		$criteria->compare('cabang_id',$this->cabang_id,true);
+		$criteria->compare('cabang_id',$this->cabang_id);
 		$criteria->compare('ip',$this->ip);
 
 		return new CActiveDataProvider($this, array(
