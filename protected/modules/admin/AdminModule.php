@@ -12,6 +12,9 @@ class AdminModule extends CWebModule
 			'admin.models.*',
 			'admin.components.*',
 		));
+		
+		// adding layout
+		$this->layout = 'main';
 	}
 
 	public function beforeControllerAction($controller, $action)
@@ -20,7 +23,14 @@ class AdminModule extends CWebModule
 		{
 			// this method is called before any module controller action is performed
 			// you may place customized code here
-			return true;
+			if( Yii::app()->user->getLevel()>1 )
+			{
+				throw new CHttpException(403,Yii::t('yii','You are not authorized to perform this action.'));
+			}
+			else
+			{
+				return true;
+			}
 		}
 		else
 			return false;

@@ -34,7 +34,7 @@ if(!Yii::app()->request->isAjaxRequest)
 <div class="container" id="page">
 
 	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo"><?php echo CHtml::encode(Yii::app()->name). 'Admin Console'; ?></div>
 	</div><!-- header -->
 
 	<div id="menubar">
@@ -52,14 +52,16 @@ if(!Yii::app()->request->isAjaxRequest)
 		<?php $this->widget('ext.mbmenu.MbMenu',array(
 		//$this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>Yii::t('ui','Branch'), 'url'=>array('/cabang'), 'visible'=>Yii::app()->user->getLevel()<=1),
-				array('label'=>Yii::t('ui','PC Users'), 'url'=>array('/mesin'), 'visible'=>!Yii::app()->user->isGuest),
-				array('label'=>Yii::t('ui','Member'), 'url'=>array('/user'), 'visible'=>Yii::app()->user->getLevel()<=1),
-				array('label'=>Yii::t('ui','Member'), 'url'=>array('/user/update&id='.Yii::app()->user->id), 'visible'=>Yii::app()->user->getLevel()==2),
+				// array('label'=>Yii::t('ui','Branch'), 'url'=>array('/cabang'), 'visible'=>Yii::app()->user->getLevel()<=1),
+				// array('label'=>Yii::t('ui','PC Users'), 'url'=>array('/mesin'), 'visible'=>!Yii::app()->user->isGuest),
+				// array('label'=>Yii::t('ui','Member'), 'url'=>array('/user'), 'visible'=>Yii::app()->user->getLevel()<=1),
+				// array('label'=>Yii::t('ui','Member'), 'url'=>array('/user/update&id='.Yii::app()->user->id), 'visible'=>Yii::app()->user->getLevel()==2),
+				array('label'=>Yii::t('ui','Back To Main Site'), 'url'=>array('/mesin')),
+				array('label'=>'Admin', 'url'=>array('/admin/default/')),
+
 				array('label'=>Yii::t('ui','Login'), 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>Yii::t('ui','Logout (').Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
-				array('label'=>Yii::t('ui','Help'), 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Admin', 'url'=>array('/admin/default/index'),'visible'=>Yii::app()->user->getLevel()<=1),
+				// array('label'=>Yii::t('ui','Help'), 'url'=>array('/site/page', 'view'=>'about')),
 			),
 		)); ?>
 	</div><!-- mainmenu -->

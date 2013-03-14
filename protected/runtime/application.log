@@ -1307,3 +1307,115 @@ Stack trace:
 #30 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
 #31 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
 #32 {main} REQUEST_URI=/invent/index.php/en/mesin
+2013/03/11 00:47:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/admin/
+2013/03/11 00:47:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/admin/
+2013/03/11 00:57:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('index')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/default/i...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/en/admin/default/index
+2013/03/11 00:57:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('index')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/default/i...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/en/admin/default/index
+2013/03/11 00:59:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('index')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/default/i...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/en/admin/default/index
+2013/03/11 00:59:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('index')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/default/i...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/en/admin/default/index
+2013/03/11 00:59:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('index')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/default/i...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/en/admin/default/index
+2013/03/11 00:59:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('index')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/default/i...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/en/admin/default/index
+2013/03/11 00:59:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('index')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/default/i...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/en/admin/default/index
+2013/03/11 00:59:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('index')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/default/i...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/en/admin/default/index
+2013/03/11 00:59:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('index')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/default/i...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/en/admin/default/index
+2013/03/11 00:59:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('index')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/default/i...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/en/admin/default/index
+2013/03/11 00:59:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('index')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin/default/i...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/en/admin/default/index
+2013/03/11 01:01:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\invent\protected\modules\admin\AdminModule.php:28
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(255): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(328): CController->run('')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(121): CWebApplication->runController('admin')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\invent\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/invent/index.php/admin/
